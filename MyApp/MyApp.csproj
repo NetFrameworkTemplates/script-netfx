@@ -75,7 +75,6 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\PublishProfiles\PublishToIIS.pubxml.user" />
     <Content Include="wwwroot\about.html" />
     <Content Include="wwwroot\assets\css\bootstrap.css" />
     <Content Include="wwwroot\assets\css\default.css" />
@@ -100,9 +99,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\PublishToIIS.pubxml" />
+    <Content Include="Properties\PublishProfiles\PublishToIIS.pubxml.user" />
+    <Content Include="Web.config" />
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

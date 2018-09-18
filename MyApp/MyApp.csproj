@@ -13,6 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MyApp</RootNamespace>
     <AssemblyName>MyApp</AssemblyName>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>    
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />

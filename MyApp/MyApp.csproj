@@ -100,6 +100,16 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MyApp.ServiceInterface\MyApp.ServiceInterface.csproj">
+      <Project>{3ADA98B6-22EF-40B2-8D28-F8B21D90A719}</Project>
+      <Name>MyApp.ServiceInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyApp.ServiceModel\MyApp.ServiceModel.csproj">
+      <Project>{3B964640-9CA0-4868-A11B-8924C02A99CB}</Project>
+      <Name>MyApp.ServiceModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="wwwroot\about.html" />
     <Content Include="wwwroot\admin\index.html" />
@@ -124,6 +134,9 @@
     <Content Include="wwwroot\_requires-auth-partial.html" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\assets\js\dtos.ts" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="AppHost.cs" />
     <Compile Include="Configure.Auth.cs" />
     <Compile Include="Configure.AuthRepository.cs" />
@@ -140,22 +153,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyApp.ServiceInterface\MyApp.ServiceInterface.csproj">
-      <Project>{3ADA98B6-22EF-40B2-8D28-F8B21D90A719}</Project>
-      <Name>MyApp.ServiceInterface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MyApp.ServiceModel\MyApp.ServiceModel.csproj">
-      <Project>{3B964640-9CA0-4868-A11B-8924C02A99CB}</Project>
-      <Name>MyApp.ServiceModel</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="wwwroot\assets\js\dtos.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\about\" />

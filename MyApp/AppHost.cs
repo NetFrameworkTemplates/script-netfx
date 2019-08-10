@@ -1,4 +1,5 @@
-﻿using Funq;
+﻿using System.Net;
+using Funq;
 using ServiceStack;
 using MyApp.ServiceInterface;
 
@@ -18,6 +19,8 @@ namespace MyApp
         /// </summary>
         public override void Configure(Container container)
         {
+            Plugins.Add(new SharpPagesFeature());
+
             SetConfig(new HostConfig
             {
                 DebugMode = AppSettings.Get("DebugMode", false),
@@ -26,7 +29,8 @@ namespace MyApp
                 UseCamelCase = true,
             });
 
-            Plugins.Add(new TemplatePagesFeature());
+            this.CustomErrorHttpHandlers[HttpStatusCode.NotFound] = new SharpPageHandler("/notfound");
+            this.CustomErrorHttpHandlers[HttpStatusCode.Forbidden] = new SharpPageHandler("/forbidden");
         }
     }
 }

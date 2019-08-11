@@ -1,12 +1,12 @@
-# sharp-netfx
+# script-netfx
 
-ASP.NET ServiceStack Templates Bootstrap Project
+ASP.NET ServiceStack #Script Pages Bootstrap Project
 
-[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/sharp.png)](http://sharp.web-templates.io/)
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/script.png)](http://sharp.web-templates.io/)
 
-> Browse [source code](https://github.com/NetFrameworkTemplates/sharp-netfx), view live demo [sharp.web-templates.io](http://sharp.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
+> Browse [source code](https://github.com/NetFrameworkTemplates/sharp-netfx), view live demo [script.web-templates.io](http://script.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
     $ dotnet tool install --global web
 
-    $ web new sharp-netfx ProjectName
+    $ web new script-netfx ProjectName
 

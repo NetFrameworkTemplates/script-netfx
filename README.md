@@ -1,6 +1,6 @@
 # script-netfx
 
-ASP.NET ServiceStack #Script Pages Bootstrap Project
+ASP.NET ServiceStack [#Script Pages](https://sharpscript.net/docs/sharp-pages) Bootstrap Project
 
 [![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/script.png)](http://sharp.web-templates.io/)
 

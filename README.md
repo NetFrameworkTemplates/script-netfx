@@ -1,12 +1,12 @@
-# templates-netfx
+# sharp-netfx
 
 ASP.NET ServiceStack Templates Bootstrap Project
 
-[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/templates.png)](http://templates.web-templates.io/)
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/sharp.png)](http://sharp.web-templates.io/)
 
-> Browse [source code](https://github.com/NetFrameworkTemplates/templates-netfx), view live demo [templates.web-templates.io](http://templates.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
+> Browse [source code](https://github.com/NetFrameworkTemplates/sharp-netfx), view live demo [sharp.web-templates.io](http://sharp.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ npm install -g @servicestack/cli
+    $ dotnet tool install --global web
 
-    $ dotnet-new templates-netfx ProjectName
+    $ web new sharp-netfx ProjectName
 

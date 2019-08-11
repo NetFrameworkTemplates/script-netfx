@@ -28,9 +28,6 @@ namespace MyApp
                 AddRedirectParamsToQueryString = true,
                 UseCamelCase = true,
             });
-
-            this.CustomErrorHttpHandlers[HttpStatusCode.NotFound] = new SharpPageHandler("/notfound");
-            this.CustomErrorHttpHandlers[HttpStatusCode.Forbidden] = new SharpPageHandler("/forbidden");
         }
     }
 }

@@ -14,7 +14,7 @@ BaseUrl: https://localhost:5001
 //ExcludeTypes:
 //DefaultImports:
 */
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 // @DataContract
 var ResponseError = /** @class */ (function () {
     function ResponseError(init) {
@@ -128,3 +128,4 @@ var Register = /** @class */ (function () {
     return Register;
 }());
 exports.Register = Register;
+//# sourceMappingURL=dtos.js.map

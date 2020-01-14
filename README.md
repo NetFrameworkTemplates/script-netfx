@@ -6,7 +6,7 @@ ASP.NET ServiceStack [#Script Pages](https://sharpscript.net/docs/sharp-pages) B
 
 > Browse [source code](https://github.com/NetFrameworkTemplates/sharp-netfx), view live demo [script.web-templates.io](http://script.web-templates.io) and install with [dotnet-new](http://docs.servicestack.net/dotnet-new):
 
-    $ dotnet tool install --global web
+    $ dotnet tool install --global x
 
-    $ web new script-netfx ProjectName
+    $ x new script-netfx ProjectName
 
